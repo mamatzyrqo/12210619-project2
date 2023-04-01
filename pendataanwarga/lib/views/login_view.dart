@@ -27,6 +27,7 @@ class LoginView extends StatelessWidget {
               child: Card(
                 // ignore: prefer_const_constructors
                 margin: EdgeInsets.only(top: 50, left: 20, right: 20),
+                // ignore: prefer_const_constructors
                 color: Color.fromARGB(255, 139, 198, 221),
                 child: Column(
                   children: [
