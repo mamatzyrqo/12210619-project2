@@ -27,7 +27,7 @@ class LoginView extends StatelessWidget {
               child: Card(
                 // ignore: prefer_const_constructors
                 margin: EdgeInsets.only(top: 50, left: 20, right: 20),
-                color: Colors.brown[200],
+                color: Color.fromARGB(255, 139, 198, 221),
                 child: Column(
                   children: [
                     // ignore: prefer_const_constructors
@@ -40,17 +40,21 @@ class LoginView extends StatelessWidget {
                     decoration: InputDecoration(
                       // ignore: prefer_const_constructors
                       border: OutlineInputBorder(),
-                      fillColor: Colors.grey[50],
+                      fillColor: Colors.blueGrey[50],
                       filled: true),
                   ),
                  ),
+                 // ignore: prefer_const_constructors
                  Padding(
                   padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
+                  // ignore: prefer_const_constructors
                   child: TextField(
+                    // ignore: prefer_const_constructors
                     decoration: InputDecoration(
                       // ignore: prefer_const_constructors
                       border: OutlineInputBorder(),
-                      fillColor: Colors.grey[50],
+                      // ignore: prefer_const_constructors
+                      fillColor: Color.fromARGB(255, 233, 226, 226),
                       filled: true),
                   ),
                  ),
